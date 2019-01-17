@@ -1,0 +1,185 @@
+{
+  "random" : false,
+  "authPass" : null,
+  "useOnlinePac" : false,
+  "TTL" : 0,
+  "global" : false,
+  "reconnectTimes" : 3,
+  "index" : 0,
+  "proxyType" : 0,
+  "proxyHost" : null,
+  "authUser" : null,
+  "proxyAuthPass" : null,
+  "isDefault" : false,
+  "pacUrl" : null,
+  "configs" : [
+    {
+      "enable" : true,
+      "password" : "7UuH4TejmcbkF7K",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "",
+      "server" : "hk1-sta6.06e59.space",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 11379,
+      "remarks_base64" : ""
+    },
+    {
+      "enable" : true,
+      "password" : "7UuH4TejmcbkF7K",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "",
+      "server" : "jp1-sta6.06e59.space",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 11379,
+      "remarks_base64" : ""
+    },
+    {
+      "enable" : true,
+      "password" : "7UuH4TejmcbkF7K",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "",
+      "server" : "us1-sta6.06e59.space",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 11379,
+      "remarks_base64" : ""
+    },
+    {
+      "enable" : true,
+      "password" : "7UuH4TejmcbkF7K",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "",
+      "server" : "us2-sta6.06e59.space",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 11379,
+      "remarks_base64" : ""
+    },
+    {
+      "enable" : true,
+      "password" : "7UuH4TejmcbkF7K",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "",
+      "server" : "hk3-sta6.06e59.space",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 11379,
+      "remarks_base64" : ""
+    },
+    {
+      "enable" : true,
+      "password" : "7UuH4TejmcbkF7K",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "",
+      "server" : "ru1-sta6.06e59.space",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 11379,
+      "remarks_base64" : ""
+    },
+    {
+      "enable" : true,
+      "password" : "7UuH4TejmcbkF7K",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "",
+      "server" : "us3-sta6.06e59.space",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 11379,
+      "remarks_base64" : ""
+    },
+    {
+      "enable" : true,
+      "password" : "f55.fun-11056874",
+      "method" : "aes-256-cfb",
+      "remarks" : "",
+      "server" : "use.1ss.bid",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 16551,
+      "remarks_base64" : ""
+    }
+  ],
+  "proxyPort" : 0,
+  "randomAlgorithm" : 0,
+  "proxyEnable" : false,
+  "enabled" : true,
+  "autoban" : false,
+  "proxyAuthUser" : null,
+  "shareOverLan" : false,
+  "localPort" : 1080
+}
