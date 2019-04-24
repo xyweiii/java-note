@@ -20,3 +20,24 @@ workspace
         transactionTemplate.setIsolationLevel(TransactionDefinition.ISOLATION_DEFAULT);
         return transactionTemplate;
     }
+    
+    
+    
+    
+    
+        public boolean result() {
+        return template.execute(action -> {
+            try {
+                int result = userMapper.insert(new User());
+                if (result == 1) {
+                    action.setRollbackOnly();
+                    return false;
+                } else {
+                    return true;
+                }
+            } catch (Exception e) {
+                action.setRollbackOnly();
+            }
+            return false;
+        });
+    }
