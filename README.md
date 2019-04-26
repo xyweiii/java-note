@@ -58,4 +58,26 @@ https://blog.csdn.net/a83370892/article/details/66476623
 
  https://www.cnblogs.com/fozero/p/7868687.html
  http://tool.oschina.net/uploads/apidocs/jquery/regexp.html
-
+ 
+ 
+ 
+ 
+  @Override
+    public void afterPropertiesSet() throws Exception {
+        Connection connection = factory.createConnection();
+        channel = connection.createChannel(false);
+        channel.queueBind("gateway.cmpp.deliver", "sms.callback", "gateway.cmpp.deliver");
+    }
+ 
+ 
+@RabbitHandler
+    public void process(JSONObject msg, @Header(AmqpHeaders.DELIVERY_TAG) long deliveryTag, Channel channel) {
+        try {
+            
+             channel.basicAck(deliveryTag, true);
+           
+            }
+        } catch (Exception e) {
+            xxxx;
+        }
+    }
