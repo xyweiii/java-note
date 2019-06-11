@@ -81,3 +81,16 @@ https://blog.csdn.net/a83370892/article/details/66476623
             xxxx;
         }
     }
+
+
+
+
+channelId: localStorage.getItem("channelId"),
+							id: localStorage.getItem("updateApi_default_id"),
+							url: this.c_url.trim(),
+							apiType: this.c_api,
+							status: "1",
+							httpMethod: this.c_post,
+							headers: headers,
+							urlParams: JSON.stringify(a),
+							responseBody: JSON.stringify(b),
