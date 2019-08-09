@@ -106,7 +106,7 @@ System.out.println(JSON.parse(JSON.toJSON(str).toString()));
 
 
 
-
+&readPreference=secondaryPreferred
 
 
 
