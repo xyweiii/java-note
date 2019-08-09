@@ -106,7 +106,7 @@ System.out.println(JSON.parse(JSON.toJSON(str).toString()));
 
 
 
-&readPreference=secondaryPreferred
+spring.data.mongodb.uri =mongodb://root:FOjWW7LpO6omh5hiZR9aza4R@172.19.84.216:27017,172.19.84.213:27017,172.19.84.241:27017/admin?replicaSet=sioo&readPreference=secondaryPreferred
 
 
 
