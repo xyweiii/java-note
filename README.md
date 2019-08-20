@@ -99,7 +99,7 @@ https://blog.csdn.net/a83370892/article/details/66476623
 System.out.println(JSON.parse(JSON.toJSON(str).toString()));
 
 
-
+#mongo读写分离
 replicaSet=sioo&readPreference=secondaryPreferred
 
 
