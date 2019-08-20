@@ -100,6 +100,8 @@ System.out.println(JSON.parse(JSON.toJSON(str).toString()));
 
 
 #mongo读写分离
+
+
 replicaSet=sioo&readPreference=secondaryPreferred
 
 
