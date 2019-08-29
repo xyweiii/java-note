@@ -105,3 +105,27 @@ System.out.println(JSON.parse(JSON.toJSON(str).toString()));
 replicaSet=sioo&readPreference=secondaryPreferred
 
 5248421718129664
+
+
+
+
+
+
+
+
+
+
+
+[{tenantId=102019070371561, userId=4790069415640064, userName=dyht01, count=646}, {tenantId=102019070371561, userId=4994276747639808, userName=shqd001, count=889}, {tenantId=102019070371561, userId=4766522719861760, userName=jiashu01, count=24463}]
+
+
+
+
+
+
+
+
+
+
+
+
