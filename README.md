@@ -115,9 +115,27 @@ replicaSet=sioo&readPreference=secondaryPreferred
 
 
 
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = DemoApplication.class)
+public class MockTest {
 
-[{tenantId=102019070371561, userId=4790069415640064, userName=dyht01, count=646}, {tenantId=102019070371561, userId=4994276747639808, userName=shqd001, count=889}, {tenantId=102019070371561, userId=4766522719861760, userName=jiashu01, count=24463}]
+    private MockMvc mockMvc;
 
+    @Autowired
+    private WebApplicationContext context;
+
+    @Before
+    public void setUp() {
+        mockMvc = MockMvcBuilders.webAppContextSetup(context).build();
+    }
+
+    @Test
+    public void TestAAA() throws Exception {
+        mockMvc.perform(MockMvcRequestBuilders.get("/mongo/test"))
+                .andExpect(MockMvcResultMatchers.status().isOk())
+                .andExpect(MockMvcResultMatchers.content().string("Mock test"));
+    }
+}
 
 
 
