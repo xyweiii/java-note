@@ -157,3 +157,33 @@ public class MockTest {
 
 
 
+
+CHT0101:40
+CHT0103:19056
+-5:9
+-6:32078
+____________
+(CHT0103 HTTP 提交失败) http status code not 200: 500:4237
+(CHT0103 HTTP 提交失败) 通道不存在, channel not found, channel=5903319261510656, error=key=channel-info:5903319261510656, error=channel: unmarshal json failed, error=invalid character 'O' looking for beginning of value, json=OK:9819
+(CHT0101 HTTP 提交超时) Post http://119.23.154.247:8000/SendSms.asp: net/http: request canceled (Client.Timeout exceeded while awaiting headers):40
+(CHT0103 HTTP 提交失败) 通道不存在, channel not found, channel=5903319261510656, error=key=channel-info:5903319261510656, error=MOVED 8312 172.19.84.226:6379:5000
+(-6 -6) %!s(<nil>) -6:32078
+(-5 -5) %!s(<nil>) -5:9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
