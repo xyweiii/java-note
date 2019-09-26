@@ -147,3 +147,13 @@ public class MockTest {
 提交数 大于详情数,batchId:5970051741514752
 提交数 大于详情数,batchId:5970005175041024
 提交数 大于详情数,batchId:5969973717498880
+
+
+
+
+
+(CHT0103 HTTP 提交失败) http status code not 200: 500:3569
+(-5 -5) %!s(<nil>) -5:9
+
+
+
