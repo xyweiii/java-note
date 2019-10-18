@@ -198,5 +198,37 @@ select *  from user_control uc where length(uc.user_kind)>2 and id in (select us
 
 
 
-
+hmyx001
+ygph
+test1
+zhusy1
+jisukeji1
+test01
+qt001
+dyht01
+hqh12
+luotest
+shqd001
+lianyi01
+pw001
+shuiyou
+huyue01
+TDCSZY
+sankeshu
+jennydongnew
+boyuan01
+1116548
+shxs001
+gerald
+lengnuan
+lixing01
+wxsmsh001
+ygtest
+clienta2
+clienta4
+clienta5
+clienta6
+clienta7
+clienta8
+clienta9
 
