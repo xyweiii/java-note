@@ -64,7 +64,8 @@ https://blog.csdn.net/a83370892/article/details/66476623
 
  
  
- 
+ select *  from user_control uc where length(uc.user_kind)>2 and id in (select us.user_id from user_statistics us);
+
   @Override
     public void afterPropertiesSet() throws Exception {
         Connection connection = factory.createConnection();
@@ -188,6 +189,11 @@ ____________
 
 
 
+
+
+
+
+select *  from user_control uc where length(uc.user_kind)>2 and id in (select us.user_id from user_statistics us);
 
 
 
