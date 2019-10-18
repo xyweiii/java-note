@@ -22,8 +22,7 @@ workspace
         return transactionTemplate;
     }
     
-    
-    
+   
     
     
         public boolean result() {
