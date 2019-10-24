@@ -1,6 +1,5 @@
 # workspace
 workspace
-test
 
 
     @Autowired
