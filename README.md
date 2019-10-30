@@ -77,6 +77,7 @@ https://blog.csdn.net/a83370892/article/details/66476623
             
              channel.basicAck(deliveryTag, true);
            
+           
             }
         } catch (Exception e) {
             xxxx;
