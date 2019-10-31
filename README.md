@@ -249,4 +249,7 @@ clienta9
 2b458af0d5864e1994785ba562d992ed
 
 
+linux同步 系统/网络时间
+ntpdate cn.pool.ntp.org
+
 
