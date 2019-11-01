@@ -253,3 +253,7 @@ linux同步 系统/网络时间
 ntpdate cn.pool.ntp.org
 
 
+sioo-aliyun-mongo
+
+mongodb://root:2eaf64feB6789ea3@s-uf60c7eb704c88a4.mongodb.rds.aliyuncs.com:3717,s-uf6a3f907ef3bf84.mongodb.rds.aliyuncs.com:3717/admin
+
