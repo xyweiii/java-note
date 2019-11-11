@@ -257,3 +257,31 @@ sioo-aliyun-mongo
 
 mongodb://root:2eaf64feB6789ea3@s-uf60c7eb704c88a4.mongodb.rds.aliyuncs.com:3717,s-uf6a3f907ef3bf84.mongodb.rds.aliyuncs.com:3717/admin
 
+
+
+
+
+
+
+
+
+
+
+合肥蔚岛电子商务有限公司	wddz	lianyi01,test01,lixing01,wxsmsh001,shxs001,boyuan01,shqd001
+金蚕网络	zhiqiang	Xay,ygph
+个人	lzgr	clienta2,clienta3,clienta4,clienta5,clienta6,clienta7,clienta8,clienta9,ygtest
+上海即速网络科技有限公司	jisukeji	jisukeji1
+桔子云通信	juziyun1	hmyx001
+厦门矛合盾科技有限公司	maohedun	lengnuan,
+nfc	nfctest2	test1
+上海腾心信息科技有限公司	txgq	gerald
+信嘉联创(厦门)科技有限公司	jialian	shuiyou,sankeshu
+四川通智达信息技术有限公司	tongzhida	1116548
+
+
+
+
+
+
+
+
