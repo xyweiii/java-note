@@ -355,3 +355,14 @@ https://docs.mongodb.com/manual/release-notes/4.2-upgrade-standalone/
 
 
 https://blog.csdn.net/u____/article/details/79859503
+
+
+
+//索引
+
+db.collection.createIndex(
+  { "$**" : 1 },
+  { "wildcardProjection" :
+    { "fieldA" : 0, "fieldB.fieldC" : 0 }
+  }
+)
