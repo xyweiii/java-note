@@ -338,6 +338,17 @@ ps -ef|grep cpu|grep -v grep|awk '{print $2}'
 db.example.createIndex({ "attributes.$**": 1 });
 mongo  升级 下载4.2.1 包
 
+
+
+
+db.adminCommand( { getParameter: 1, featureCompatibilityVersion: 1 } )
+
+
+
+db.adminCommand( { setFeatureCompatibilityVersion: "4.2" } )
+
+
+
 http://downloads.mongodb.org/linux/mongodb-linux-x86_64-rhel70-4.2.1.tgz
 
 https://docs.mongodb.com/manual/release-notes/4.2-upgrade-standalone/
