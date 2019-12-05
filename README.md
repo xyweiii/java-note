@@ -334,6 +334,11 @@ ps -ef|grep cpu|grep -v grep|awk '{print $2}'
 4、最后，只包含cpu关键字的进程筛选结果作为输入给awk '{print $2}'，这个部分的作用是提取输入的第二列，而第二列正是进程的PID
 
 
+//mongo通配符索引
+db.example.createIndex({ "attributes.$**": 1 });
+
+
+
 
 
 https://blog.csdn.net/u____/article/details/79859503
