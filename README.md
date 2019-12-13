@@ -366,3 +366,31 @@ db.collection.createIndex(
     { "fieldA" : 0, "fieldB.fieldC" : 0 }
   }
 )
+
+
+
+
+
+
+<dependencies>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-embedder</artifactId>
+      <version>2.0</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.apache.maven</groupId>
+          <artifactId>maven-core</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    ...
+  </dependencies>
+
+
+
+
+
+
+
+
