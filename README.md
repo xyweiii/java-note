@@ -395,6 +395,8 @@ db.collection.createIndex(
   </dependencies>
   
   
+  db.getCollection('sms_verify_batch').find({"tenantId":"102019120480753","statusMap.102019120480753":0}).sort({createDate:-1}).limit(10)
+  
 
 
 
