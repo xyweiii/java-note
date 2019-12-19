@@ -398,8 +398,12 @@ db.collection.createIndex(
   db.getCollection('sms_verify_batch').find({"tenantId":"102019120480753","statusMap.102019120480753":0}).sort({createDate:-1}).limit(10)
   
 
+配置jmc元成功访问
 
-
+ -Dcom.sun.management.jmxremote.port=7001
+ -Dcom.sun.management.jmxremote 
+ -Dcom.sun.management.jmxremote.authenticate=false 
+ -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=your ip
 
 
 
