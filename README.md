@@ -392,7 +392,23 @@ db.collection.createIndex(
       </exclusions>
     </dependency>
     ...
-  </dependencies>
+  </dependencies
+    
+    
+    <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    
+    
+    
+    
   
   
   db.getCollection('sms_verify_batch').find({"tenantId":"102019120480753","statusMap.102019120480753":0}).sort({createDate:-1}).limit(10)
