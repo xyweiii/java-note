@@ -425,3 +425,17 @@ db.collection.createIndex(
 
 
 
+    @PostConstruct
+    public void createDelayQueue() {
+        //新建exchange
+        Exchange exchange = ExchangeBuilder.directExchange(MsgSendQueue.EXCHANGE_NAME).durable(true).build();
+        rabbitAdmin.declareExchange(exchange);
+        //新建queue
+        Queue queue = QueueBuilder.durable(MsgSendQueue.SEND_PACKAGE_DELAY.getQueueName()).withArgument("x-dead-letter-exchange", MsgSendQueue.EXCHANGE_NAME)
+                .withArgument("x-dead-letter-routing-key", MsgSendQueue.SEND_PACKAGE_NORMAL.getQueueName())
+                .withArgument("x-message-ttl", 60000)
+                .build();
+        rabbitAdmin.declareQueue(queue);
+        //绑定
+        rabbitAdmin.declareBinding(BindingBuilder.bind(queue).to(exchange).with(MsgSendQueue.SEND_PACKAGE_DELAY.getQueueName()).noargs());
+    }
