@@ -104,15 +104,6 @@ JSONObject msg = JSON.parseObject(str);
 
 replicaSet=sioo&readPreference=secondaryPreferred
 
-5248421718129664
-
-
-
-
-
-
-
-
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = DemoApplication.class)
@@ -202,15 +193,6 @@ http://www.simpleteam.com/doku.php?do=export_xhtml&id=message:cmpp_simulator
 
 
 
-http://8f3ef858.ngrok.io/
-
-
-http://c927f252.ngrok.io/
-
-
-
-
-
 
 
 
@@ -245,10 +227,7 @@ mongo  升级 下载4.2.1 包
 
 db.adminCommand( { getParameter: 1, featureCompatibilityVersion: 1 } )
 
-
-
 db.adminCommand( { setFeatureCompatibilityVersion: "4.2" } )
-
 
 
 http://downloads.mongodb.org/linux/mongodb-linux-x86_64-rhel70-4.2.1.tgz
@@ -306,9 +285,7 @@ db.collection.createIndex(
     
   
   
-  db.getCollection('sms_verify_batch').find({"tenantId":"102019120480753","statusMap.102019120480753":0}).sort({createDate:-1}).limit(10)
   
-
 配置jmc元成功访问
 
  -Dcom.sun.management.jmxremote.port=7001
