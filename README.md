@@ -321,3 +321,8 @@ expireAfterAccess: 当缓存项在指定的时间段内没有被读或写就会�
 expireAfterWrite：当缓存项在指定的时间段内没有更新就会被回收。
 
 refreshAfterWrite：当缓存项上一次更新操作之后的多久会被刷新。
+
+//java开启远程调试
+
+java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n \
+       -jar target/myapplication-0.0.1-SNAPSHOT.jar
