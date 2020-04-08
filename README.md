@@ -326,3 +326,7 @@ refreshAfterWrite：当缓存项上一次更新操作之后的多久会被刷新
 
 java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n \
        -jar target/myapplication-0.0.1-SNAPSHOT.jar
+       
+       
+java -jar -Xms3584m -Xmx3584m -Xss512k -XX:MaxDirectMemorySize=192M /webapps/app.jar
+
