@@ -341,3 +341,23 @@ java 8
 
 // 并发编程网  好多有用的东西
 http://ifeve.com/
+
+
+//md5 多种方式 加密  生成 byte[16] 
+
+        MessageDigest md = MessageDigest.getInstance("MD5");
+
+        String str = "123";
+        byte[] b1 = md.digest(str.getBytes());
+
+        byte[] b2 = DigestUtils.md5(str);
+
+
+        MessageDigest md5Digest = DigestUtils.getMd5Digest();
+        byte[] b3 = md5Digest.digest(str.getBytes());
+
+        System.out.println(Arrays.toString(b1));
+        System.out.println(Arrays.toString(b2));
+        System.out.println(Arrays.toString(b3));
+        System.out.println(Arrays.equals(b1, b2));
+        System.out.println(Arrays.equals(b2, b3));
