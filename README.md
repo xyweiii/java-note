@@ -361,3 +361,19 @@ http://ifeve.com/
         System.out.println(Arrays.toString(b3));
         System.out.println(Arrays.equals(b1, b2));
         System.out.println(Arrays.equals(b2, b3));
+        
+        
+        
+        
+package examples;
+
+public class ExampleBean {
+
+    // Fields omitted
+
+    @ConstructorProperties({"years", "ultimateAnswer"})
+    public ExampleBean(int years, String ultimateAnswer) {
+        this.years = years;
+        this.ultimateAnswer = ultimateAnswer;
+    }
+}
