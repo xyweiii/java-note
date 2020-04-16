@@ -377,3 +377,15 @@ public class ExampleBean {
         this.ultimateAnswer = ultimateAnswer;
     }
 }
+
+
+
+
+
+
+
+//nohup 不生成nohup.out 
+
+nohup java -jar /xxx/xxx/xxx.jar    >/dev/null 2>&1   &
+https://www.cnblogs.com/wangsongbai/p/10215155.html
+
