@@ -389,3 +389,18 @@ public class ExampleBean {
 nohup java -jar /xxx/xxx/xxx.jar    >/dev/null 2>&1   &
 https://www.cnblogs.com/wangsongbai/p/10215155.html
 
+
+
+
+//springboot 日志设置
+
+logging:
+  file: /data/logs/sioo-deliver/sioo-deliver.log
+  file.max-history: 2
+  file.max-size: 100MB
+  level:
+    root: info
+    com:
+      sioo: info
+
+
