@@ -402,5 +402,8 @@ logging:
     root: info
     com:
       sioo: info
+      
+      
+       maven -B -f /var/lib/jenkins/workspace/tenant-web-dev/pom.xml -U -Dmaven.test.skip=true -Dmaven.javadoc.skip=true install
 
 
