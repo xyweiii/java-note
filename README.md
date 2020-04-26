@@ -407,3 +407,15 @@ logging:
        maven -B -f /var/lib/jenkins/workspace/tenant-web-dev/pom.xml -U -Dmaven.test.skip=true -Dmaven.javadoc.skip=true install
 
 
+//home
+@Configuration
+@EnableWebMvc
+public class WebConfig implements WebMvcConfigurer {
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/").setViewName("home");
+    }
+}
+
+
