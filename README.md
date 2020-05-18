@@ -420,3 +420,8 @@ public class WebConfig implements WebMvcConfigurer {
 
 
 https://segmentfault.com/a/1190000004315890
+
+
+
+//mybatis  不使用驼峰
+<property name="useActualColumnNames" value="true"/>
