@@ -424,5 +424,6 @@ https://segmentfault.com/a/1190000004315890
 
 
 //mybatis  不使用驼峰
-** <property name="useActualColumnNames" value="true"/>
+
+**property  name="useActualColumnNames" value="true"
 
