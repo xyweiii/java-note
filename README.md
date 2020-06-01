@@ -430,3 +430,9 @@ https://segmentfault.com/a/1190000004315890
 
 //thymleaf   replace fragment   insert 
 https://blog.csdn.net/wangmx1993328/article/details/84747497
+
+
+
+
+**处理异常信息**
+https://blog.csdn.net/jaryle/article/details/90378637
