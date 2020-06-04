@@ -441,5 +441,7 @@ https://blog.csdn.net/jaryle/article/details/90378637
 **mysql连接时区问题**
 jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
 
+jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&useSSL=false
+
 
 
