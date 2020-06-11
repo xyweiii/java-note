@@ -461,6 +461,7 @@ fdisk -l
 
 mkfs -t ext4 -c /dev/sdb
 
+//格式化 磁盘
 
 mkfs.ext4　　/dev/sdb
 
