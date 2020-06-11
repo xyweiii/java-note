@@ -453,6 +453,7 @@ password
 
 **linux  mount disk **
 
+//列出 所有设备
 lsblk
 
 
@@ -475,3 +476,6 @@ dmsetup remove_all
 
 
 echo "/dev/sdb /data ext4 defaults 0 0">>/etc/fstab
+
+
+
