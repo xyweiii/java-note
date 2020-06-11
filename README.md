@@ -451,3 +451,24 @@ password
  
 
 
+**linux  mount disk **
+
+lsblk
+
+
+fdisk -l
+
+
+mkfs -t ext4 -c /dev/sdb
+
+
+mkfs.ext4　　/dev/sdb
+
+
+
+dmsetup status
+dmsetup remove_all
+
+
+
+echo "/dev/sdb /data ext4 defaults 0 0">>/etc/fstab
