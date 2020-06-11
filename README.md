@@ -459,10 +459,11 @@ lsblk
 fdisk -l
 
 
+//格式化 磁盘
 mkfs -t ext4 -c /dev/sdb
 
-//格式化 磁盘
 
+//格式化 磁盘
 mkfs.ext4　　/dev/sdb
 
 
