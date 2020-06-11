@@ -456,6 +456,7 @@ password
 lsblk
 
 
+//显示所有的磁盘信息
 fdisk -l
 
 
