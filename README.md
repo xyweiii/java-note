@@ -482,4 +482,7 @@ echo "/dev/sdb /data ext4 defaults 0 0">>/etc/fstab
 java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n \
        -jar target/myapplication-0.0.1-SNAPSHOT.jar
 
+//maven   下载source 文档
+
+ mvn dependency:sources
 
