@@ -485,4 +485,5 @@ java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n \
 //maven   下载source 文档
 
  mvn dependency:sources
-
+//修复 ntfs, i是符
+chkdsk  i:   /f  
