@@ -487,3 +487,7 @@ java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n \
  mvn dependency:sources
 //修复 ntfs, i是符
 chkdsk  i:   /f  
+
+
+#### maven 不同仓库 之间切换 ， 删除   _remote.repositories 修复jar 包引用不了问题
+
