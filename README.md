@@ -491,3 +491,4 @@ chkdsk  i:   /f
 
 #### maven 不同仓库 之间切换 ， 删除   _remote.repositories 修复jar 包引用不了问题
 
+### mac/Linux   查询满足条件的文件   并删除 find . -name "_remote.repositories" | xargs rm -rf
