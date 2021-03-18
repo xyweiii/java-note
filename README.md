@@ -507,3 +507,10 @@ chkdsk  i:   /f
 ### mongo聚合,数据量大 开启 diskUse
 
 {allowDiskUse: true}
+
+
+### maven skip test https://www.cnblogs.com/javabg/p/8026881.html
+
+-DskipTests，不执行测试用例，但编译测试用例类生成相应的class文件至target/test-classes下。
+
+-Dmaven.test.skip=true，不执行测试用例，也不编译测试用例类。
