@@ -530,3 +530,7 @@ chkdsk  i:   /f
 ### mysql 时区问题 set global time_zone = '+08:00';
 
 
+### 查看端口情况 netstat -tunlp|grep 9080
+
+
+
