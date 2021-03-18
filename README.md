@@ -526,3 +526,7 @@ chkdsk  i:   /f
 ### redis-cli -h host -p port keys "pattern" |xargs redis-cli -h host -p port del
 
 
+
+### mysql 时区问题 set global time_zone = '+08:00';
+
+
