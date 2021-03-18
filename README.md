@@ -521,3 +521,8 @@ chkdsk  i:   /f
 ### maven 下载源码 mvn dependency:sources
 
 
+### Redis 模糊匹配 一次删除多个key
+
+### redis-cli -h host -p port keys "pattern" |xargs redis-cli -h host -p port del
+
+
