@@ -502,3 +502,8 @@ chkdsk  i:   /f
             <scope>system</scope>
             <systemPath>${pom.basedir}/src/main/resources/spire-doc/spire.doc-4.3.2.jar</systemPath>
         </dependency>
+
+
+### mongo聚合,数据量大 开启 diskUse
+
+{allowDiskUse: true}
