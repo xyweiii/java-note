@@ -3,6 +3,8 @@ workspace
 
 
 
+
+
     @Autowired
     private DataSource dataSource;
     
@@ -59,6 +61,8 @@ https://blog.csdn.net/a83370892/article/details/66476623
  http://tool.oschina.net/uploads/apidocs/jquery/regexp.html
  
  
+
+
 
  
  
@@ -136,8 +140,12 @@ public class MockTest {
 
 
 
+
+
 (CHT0103 HTTP 提交失败) http status code not 200: 500:3569
 (-5 -5) %!s(<nil>) -5:9
+
+
 
 
 
@@ -153,6 +161,8 @@ ____________
 (CHT0103 HTTP 提交失败) 通道不存在, channel not found, channel=5903319261510656, error=key=channel-info:5903319261510656, error=MOVED 8312 172.19.84.226:6379:5000
 (-6 -6) %!s(<nil>) -6:32078
 (-5 -5) %!s(<nil>) -5:9
+
+
 
 
 
@@ -253,6 +263,7 @@ db.collection.createIndex(
 
 
 
+
 <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
@@ -286,6 +297,7 @@ db.collection.createIndex(
   
   
   
+  
 配置jmc元成功访问
 
  -Dcom.sun.management.jmxremote.port=7001
@@ -316,6 +328,7 @@ db.collection.createIndex(
     
     
     
+    
 expireAfterAccess: 当缓存项在指定的时间段内没有被读或写就会被回收。
 
 expireAfterWrite：当缓存项在指定的时间段内没有更新就会被回收。
@@ -327,7 +340,8 @@ refreshAfterWrite：当缓存项上一次更新操作之后的多久会被刷新
 java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n \
        -jar target/myapplication-0.0.1-SNAPSHOT.jar
        
-       
+  
+  
 java -jar -Xms3584m -Xmx3584m -Xss512k -XX:MaxDirectMemorySize=192M /webapps/app.jar
 
 
