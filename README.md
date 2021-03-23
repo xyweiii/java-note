@@ -546,5 +546,7 @@ chkdsk  i:   /f
 
 ### 查看端口情况 netstat -tunlp|grep 9080
 
+### 
+
 
 
