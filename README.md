@@ -546,7 +546,8 @@ chkdsk  i:   /f
 
 ### 查看端口情况 netstat -tunlp|grep 9080
 
-### 
-
+### maven 相关命令
+https://blog.csdn.net/qq_32317661/article/details/81232337
+maven deploy -e -U -B 等集成命令
 
 
