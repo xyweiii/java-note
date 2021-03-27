@@ -23,6 +23,16 @@ public TransactionTemplate transactionTemplate(DataSourceTransactionManager data
 
 ```
 ------
+##### maven 引用本地jar包
+```xml
+ <dependency>
+            <groupId>e-iceblue</groupId>
+            <artifactId>spire.doc</artifactId>
+            <version>4.3.2</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/src/main/resources/spire-doc/spire.doc-4.3.2.jar</systemPath>
+        </dependency>
+```
 
 
 
