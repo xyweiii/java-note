@@ -33,6 +33,13 @@ public TransactionTemplate transactionTemplate(DataSourceTransactionManager data
             <systemPath>${pom.basedir}/src/main/resources/spire-doc/spire.doc-4.3.2.jar</systemPath>
         </dependency>
 ```
+------
 
+##### maven skip test
 
+> -DskipTests，不执行测试用例，但编译测试用例类生成相应的class文件至target/test-classes下。 
+>  -Dmaven.test.skip=true，不执行测试用例，也不编译测试用例类。
+
+##### maven 下载源码
+> mvn dependency:sources
 
