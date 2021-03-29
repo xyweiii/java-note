@@ -21,6 +21,25 @@ public TransactionTemplate transactionTemplate(DataSourceTransactionManager data
     return transactionTemplate;
 }
 
+// 代码中使用 transactionTemplate事务
+
+public boolean result() {
+    return template.execute(action -> {
+        try {
+            int result = userMapper.insert(new User());
+            if (result == 1) {
+                action.setRollbackOnly();
+                return false;
+            } else {
+                return true;
+            }
+        } catch (Exception e) {
+            action.setRollbackOnly();
+        }
+        return false;
+    });
+}
+
 ```
 ------
 ##### maven 引用本地jar包
