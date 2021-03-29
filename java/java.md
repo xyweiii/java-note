@@ -62,3 +62,32 @@ public boolean result() {
 ##### maven 下载源码
 > mvn dependency:sources
 
+##### maven 编译源码
+> 
+    <build>
+      <plugins>
+          <plugin>
+              <groupId>org.springframework.boot</groupId>
+              <artifactId>spring-boot-maven-plugin</artifactId>
+              <configuration>
+                  <includeSystemScope>true</includeSystemScope>
+              </configuration>
+          </plugin>
+    
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-source-plugin</artifactId>
+              <configuration>
+                  <attach>true</attach>
+              </configuration>
+              <executions>
+                  <execution>
+                      <phase>compile</phase>
+                      <goals>
+                          <goal>jar</goal>
+                      </goals>
+                  </execution>
+              </executions>
+          </plugin>
+      </plugins>
+    </build>

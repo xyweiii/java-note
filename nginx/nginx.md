@@ -15,3 +15,26 @@
        location /sioo-tenant-web/{
           proxy_pass http://${host}:{port}/;                                                                                                                                                                                       
       }
+#####  nginx  设置跨域
+
+    if ($request_method = 'OPTIONS') {
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' '*';
+        
+        return 204;
+     }
+  
+    if ($request_method = 'GET') {
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' '*';
+    }
+      
+    if ($request_method = 'POST') {
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' '*';
+    }   
+    
+#####      
