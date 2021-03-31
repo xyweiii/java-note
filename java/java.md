@@ -55,7 +55,7 @@ public boolean result() {
 ------
 
 ##### maven skip test
-
+>  mvn  -Dmaven.test.skip=true -Dmaven.javadoc.skip=true
 > -DskipTests，不执行测试用例，但编译测试用例类生成相应的class文件至target/test-classes下。 
 >  -Dmaven.test.skip=true，不执行测试用例，也不编译测试用例类。
 
