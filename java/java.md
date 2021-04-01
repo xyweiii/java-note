@@ -120,3 +120,16 @@ expireAfterWrite：当缓存项在指定的时间段内没有更新就会被回�
 
 refreshAfterWrite：当缓存项上一次更新操作之后的多久会被刷新。
 ```    
+##### mongoTemplate 聚合查询
+
+```java
+Aggregation aggregation = Aggregation.newAggregation(
+            Aggregation.match(Criteria.where("batchId").in(ids)),
+            Aggregation.group("batchId", "uniqueId"),
+//开启disk磁盘
+aggregation.withOptions(Aggregation.newAggregationOptions().
+            allowDiskUse(true).build());
+    Long start = System.currentTimeMillis();
+    List<Object> list = mongoTemplate.aggregate(aggregation.withOptions(Aggregation.newAggregationOptions().
+            allowDiskUse(true).build()), Detail.class, Object.class).getMappedResults();
+```
