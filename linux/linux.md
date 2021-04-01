@@ -10,6 +10,9 @@
 ####  查看端口进程
 > lsof -i: 9001
 
+##### ubuntu镜像无ifconfig,ping 命令
+> apt install net-tools
+> apt install iputils-ping
 
 
 
