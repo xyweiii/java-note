@@ -111,3 +111,12 @@ public void createDelayQueue() {
           </plugin>
       </plugins>
     </build>
+------    
+#### guava cache 
+```text
+expireAfterAccess: 当缓存项在指定的时间段内没有被读或写就会被回收。
+
+expireAfterWrite：当缓存项在指定的时间段内没有更新就会被回收。
+
+refreshAfterWrite：当缓存项上一次更新操作之后的多久会被刷新。
+```    
