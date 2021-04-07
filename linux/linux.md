@@ -15,4 +15,12 @@
 > apt install iputils-ping
 
 
+##### scp 远程服务器文件 至 本地
+> scp root@ip:/opt/xxx.file  /opt/soft/
+  
+
+      
+
+
+
 
