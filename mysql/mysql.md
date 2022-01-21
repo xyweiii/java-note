@@ -10,3 +10,8 @@
  去除mysql  only_full_group_by 
 >  set @@global.sql_mode ='';
 >   flush privileges; 
+-----
+
+
+> 
+>  
