@@ -11,7 +11,5 @@
 >  set @@global.sql_mode ='';
 >   flush privileges; 
 -----
-
-
-> 
->  
+设置时区
+> ### mysql 时区问题 set global time_zone = '+08:00';
