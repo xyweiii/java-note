@@ -133,3 +133,4 @@ aggregation.withOptions(Aggregation.newAggregationOptions().
     List<Object> list = mongoTemplate.aggregate(aggregation.withOptions(Aggregation.newAggregationOptions().
             allowDiskUse(true).build()), Detail.class, Object.class).getMappedResults();
 ```
+

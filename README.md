@@ -534,18 +534,6 @@ chkdsk  i:   /f
 {allowDiskUse: true}
 
 
-### maven skip test https://www.cnblogs.com/javabg/p/8026881.html
-
--DskipTests，不执行测试用例，但编译测试用例类生成相应的class文件至target/test-classes下。
-
--Dmaven.test.skip=true，不执行测试用例，也不编译测试用例类。
-
-
-
-
-### maven 下载源码 mvn dependency:sources
-
-
 ### Redis 模糊匹配 一次删除多个key
 
 ### redis-cli -h host -p port keys "pattern" |xargs redis-cli -h host -p port del
