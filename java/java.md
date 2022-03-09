@@ -84,7 +84,7 @@ public void createDelayQueue() {
 
 
 ### maven  -e -U -B  相关命令
-https://blog.csdn.net/qq_32317661/article/details/81232337
+> https://blog.csdn.net/qq_32317661/article/details/81232337
 maven deploy -e -U -B 等集成命令
 
 
@@ -140,4 +140,20 @@ aggregation.withOptions(Aggregation.newAggregationOptions().
     List<Object> list = mongoTemplate.aggregate(aggregation.withOptions(Aggregation.newAggregationOptions().
             allowDiskUse(true).build()), Detail.class, Object.class).getMappedResults();
 ```
+---
 
+### jar包启动  指定配置参数
+>  nohup java -jar xxx.jar  --spring.profiles.active=prod > nohup.log 2>&1 &
+
+
+### pom 添加 本地jar
+
+>
+      <dependency>
+            <groupId>e-iceblue</groupId>
+            <artifactId>spire.doc</artifactId>
+            <version>4.3.2</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/src/main/resources/spire-doc/spire.doc-4.3.2.jar</systemPath>
+        </dependency>
+---
