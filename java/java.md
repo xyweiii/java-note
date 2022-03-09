@@ -82,6 +82,13 @@ public void createDelayQueue() {
 ##### maven 下载源码
 > mvn dependency:sources
 
+
+### maven  -e -U -B  相关命令
+https://blog.csdn.net/qq_32317661/article/details/81232337
+maven deploy -e -U -B 等集成命令
+
+
+
 ##### maven 编译源码
 > 
     <build>
