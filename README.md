@@ -538,9 +538,6 @@ chkdsk  i:   /f
 
 ### redis-cli -h host -p port keys "pattern" |xargs redis-cli -h host -p port del
 
-### maven 相关命令
-https://blog.csdn.net/qq_32317661/article/details/81232337
-maven deploy -e -U -B 等集成命令
 
 ### 指定 jar 配置环境
 nohup java -jar xxx.jar  --spring.profiles.active=prod > nohup.log 2>&1 &
