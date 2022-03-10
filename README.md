@@ -525,5 +525,3 @@ chkdsk  i:   /f
 ### redis-cli -h host -p port keys "pattern" |xargs redis-cli -h host -p port del
 
 
-### 指定 jar 配置环境
-nohup java -jar xxx.jar  --spring.profiles.active=prod > nohup.log 2>&1 &
