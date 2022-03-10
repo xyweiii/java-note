@@ -471,10 +471,6 @@ jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&serverT
 **spring cloud hystrix**
 https://www.cnblogs.com/duan2/p/9307217.html
 
-**linux reset password**
-password
- 
-
 
 **linux  mount disk **
 
