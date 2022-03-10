@@ -21,8 +21,3 @@
 
 #### linux reset password
 > password
- 
-
-
-
-
