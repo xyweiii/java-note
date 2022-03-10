@@ -19,7 +19,9 @@
 > scp root@ip:/opt/xxx.file  /opt/soft/
   
 
-      
+#### linux reset password
+> password
+ 
 
 
 
