@@ -518,16 +518,6 @@ chkdsk  i:   /f
 
 ### mac/Linux   查询满足条件的文件   并删除 find . -name "_remote.repositories" | xargs rm -rf
 
-### spring 添加 本地jar
-<!--spire xls-->
-        <dependency>
-            <groupId>e-iceblue</groupId>
-            <artifactId>spire.doc</artifactId>
-            <version>4.3.2</version>
-            <scope>system</scope>
-            <systemPath>${pom.basedir}/src/main/resources/spire-doc/spire.doc-4.3.2.jar</systemPath>
-        </dependency>
-
 
 ### mongo聚合,数据量大 开启 diskUse
 
