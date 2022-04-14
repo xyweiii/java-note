@@ -522,6 +522,7 @@ chkdsk  i:   /f
 
 ### Redis 模糊匹配 一次删除多个key
 
+
 ### redis-cli -h host -p port keys "pattern" |xargs redis-cli -h host -p port del
 
 
