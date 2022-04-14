@@ -272,9 +272,6 @@ db.collection.createIndex(
 
 
 
-
-
-
 <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
@@ -301,12 +298,7 @@ db.collection.createIndex(
                 </exclusion>
             </exclusions>
         </dependency>
-    
-    
-    
-    
-  
-  
+
   
   
 配置jmc元成功访问
@@ -315,8 +307,6 @@ db.collection.createIndex(
  -Dcom.sun.management.jmxremote 
  -Dcom.sun.management.jmxremote.authenticate=false 
  -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=your ip
-
-
 
 
 
