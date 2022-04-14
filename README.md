@@ -334,10 +334,7 @@ db.collection.createIndex(
         //绑定
         rabbitAdmin.declareBinding(BindingBuilder.bind(queue).to(exchange).with(MsgSendQueue.SEND_PACKAGE_DELAY.getQueueName()).noargs());
     }
-    
-    
-    
-    
+
     
     
 expireAfterAccess: 当缓存项在指定的时间段内没有被读或写就会被回收。
@@ -358,9 +355,9 @@ java -jar -Xms3584m -Xmx3584m -Xss512k -XX:MaxDirectMemorySize=192M /webapps/app
 
 java 8 
 
-为什么 Lambda 表达式(匿名类) 不能访问非 final 的局部变量呢？ 因为实例变量存在堆中，而局部变量是在栈上分配，Lambda 表达(匿名类) 会在另一个线程中执行。如果在线程中要直接访问一个局部变量，可能线程执行时该局部变量已经被销毁了，而 final 类型的局部变量在 Lambda 表达式(匿名类) 中其实是局部变量的一个拷贝。
-
-
+为什么 Lambda 表达式(匿名类) 不能访问非 final 的局部变量呢？ 因为实例变量存在堆中，而局部变量是在栈上分配，Lambda 表达(匿名类) 会在另一个线程中执行。
+如果在线程中要直接访问一个局部变量，可能线程执行时该局部变量已经被销毁了，
+而 final 类型的局部变量在 Lambda 表达式(匿名类) 中其实是局部变量的一个拷贝。
 
 
 
@@ -368,25 +365,7 @@ java 8
 http://ifeve.com/
 
 
-//md5 多种方式 加密  生成 byte[16] 
 
-        MessageDigest md = MessageDigest.getInstance("MD5");
-
-        String str = "123";
-        byte[] b1 = md.digest(str.getBytes());
-
-        byte[] b2 = DigestUtils.md5(str);
-
-
-        MessageDigest md5Digest = DigestUtils.getMd5Digest();
-        byte[] b3 = md5Digest.digest(str.getBytes());
-
-        System.out.println(Arrays.toString(b1));
-        System.out.println(Arrays.toString(b2));
-        System.out.println(Arrays.toString(b3));
-        System.out.println(Arrays.equals(b1, b2));
-        System.out.println(Arrays.equals(b2, b3));
-        
         
         
         
@@ -402,10 +381,6 @@ public class ExampleBean {
         this.ultimateAnswer = ultimateAnswer;
     }
 }
-
-
-
-
 
 
 
