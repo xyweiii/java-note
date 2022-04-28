@@ -270,7 +270,7 @@ db.collection.createIndex(
 )
 
 
-
+// maven 删除依赖
 
 <dependencies>
     <dependency>
@@ -285,8 +285,9 @@ db.collection.createIndex(
       </exclusions>
     </dependency>
     ...
-  </dependencies
+  </dependencies>
     
+
     
     <dependency>
             <groupId>org.springframework.data</groupId>
