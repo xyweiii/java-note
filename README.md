@@ -260,7 +260,7 @@ https://blog.csdn.net/u____/article/details/79859503
 
 
 
-//索引
+//mongodb索引
 
 db.collection.createIndex(
   { "$**" : 1 },
