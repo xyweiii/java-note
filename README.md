@@ -175,33 +175,6 @@ ____________
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-select *  from user_control uc where length(uc.user_kind)>2 and id in (select us.user_id from user_statistics us);
-
-
-
-2b458af0d5864e1994785ba562d992ed
-
-
 linux同步 系统/网络时间
 ntpdate cn.pool.ntp.org
 
@@ -209,10 +182,6 @@ ntpdate cn.pool.ntp.org
 
 //cmpp模拟网关
 http://www.simpleteam.com/doku.php?do=export_xhtml&id=message:cmpp_simulator
-
-
-
-
 
 
 
@@ -242,7 +211,6 @@ ps -ef|grep cpu|grep -v grep|awk '{print $2}'
 //mongo通配符索引
 db.example.createIndex({ "attributes.$**": 1 });
 mongo  升级 下载4.2.1 包
-
 
 
 
